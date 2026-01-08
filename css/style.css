@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    background: white;
+   
 }
 
 .container{
@@ -20,11 +20,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 .menuContainer{
     display: flex;
-    gap: 15px;
+    gap: 30px;
     list-style: none;
 }
 .menuContainer li a{
@@ -50,3 +50,88 @@
     cursor: pointer;
 }
 /* end navbar section style  */
+
+/* start banner section style  */
+.banner{
+    background: url('../assets/hero-bg.png');
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_text{
+    background: #fff;
+    color: #30B868;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.before{
+    background: #30B868;
+    border-radius: 50%;
+    width: 5px;  
+    height: 5px;
+    box-shadow: 0px 0px 0px 3px #30b8687a;
+}
+.bannerContent h1{
+    font-size: 65px;
+    color: white;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+}
+.bannerContent h1 span{
+    color: #30B868;
+}
+.heroDescription{
+    font-size: 16px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+}
+.herobtnContainer{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.button {
+    padding: 15px 15px;
+    background: #30B868;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn2{
+    background: rgba(255, 0, 0, 0) ;
+    border: 1px solid #fff;
+}
+#btn1:hover{
+    background: rgba(255, 0, 0, 0) ;
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+#btn2:hover{
+    background: #30B868;
+    border:none;
+    transition: 0.3s;
+}
+
+/* end banner section style   */
+
+/* start card section style  */
