@@ -34,6 +34,10 @@
     text-decoration: none;
     color: black;
 }
+.menuContainer li:hover a{
+     color: #71ce98;
+     /* transform: translate(-50%,-50%); */
+}
 .navbtn{
     padding: 10px 15px;
     background: #30B868;
