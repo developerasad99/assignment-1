@@ -108,7 +108,7 @@
 }
 .button {
     padding: 15px 15px;
-    background: #30B868;
+    background: #2ea560;
     color: white;
     border: none;
     outline: none;
@@ -127,7 +127,8 @@
     transition: 0.3s;
 }
 #btn2:hover{
-    background: #30B868;
+    background: #F7F6F2;
+    color: #000;
     border:none;
     transition: 0.3s;
 }
@@ -228,3 +229,31 @@
 }
 
 /* end brain section style  */
+.earlyContainer {
+    background: #F7F6F2;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.earlyContainer h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.earlyContainer p{
+    font-size: 15px;
+    color: #535252;
+    line-height: 25px;
+}
+#earlyBtn:hover {
+    background: #292828;
+    transition: 0.3s;
+}
+
+/* end early section  */
