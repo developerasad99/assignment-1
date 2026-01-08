@@ -287,6 +287,14 @@ footer{
     text-decoration: none;
     color: black;
 }
+.footerContainer ul li:hover{
+    background: #ffbf10;
+    transition: 0.3s;
+}
+.footerContainer ul li:hover a{
+    color: white;
+    transition: 0.3s;
+}
 .hr{
     width: 100%;
     height: 1px;
