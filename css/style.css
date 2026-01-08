@@ -135,3 +135,96 @@
 /* end banner section style   */
 
 /* start card section style  */
+.cardInfo{
+    text-align: center;
+    margin-top: 60px;
+}
+.cardInfo h1{
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.cardInfo p{
+    font-size: 15px;
+    color: #535252;
+    margin-bottom: 35px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:35px 30px;
+    /* border: 1px solid black; */
+    box-shadow: 0px -9px 16px 0px #dad8d886;
+    gap: 25px;
+    border-radius: 5px;
+}
+.card h1{
+    font-size: 25px;
+}
+.card p{
+    font-size: 14px;
+    color: #535252;
+}
+.img{
+    background: #F95555;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end card section  */
+
+.brainSection{
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+.brainContainer{
+    display: flex;
+    gap: 80px;
+}
+.brainrightSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.brainrightSection h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #469165;
+}
+.brainrightSection h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.brainrightSection p{
+    font-size: 15px;
+    color: #535252;
+    margin-bottom: 35px;
+    line-height: 20px;
+}
+.brainrightSection ul li{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* end brain section style  */
